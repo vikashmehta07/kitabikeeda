@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search PDF</title>
+</head>
+<body>
+    <h2>Ask a Question</h2>
+    <form action="/kitab/search/" method="GET">  <!-- Updated action -->
+        <input type="hidden" name="pdf" value="{{ request.GET.pdf }}">
+        <input type="text" name="query" placeholder="Enter your question" required>
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
