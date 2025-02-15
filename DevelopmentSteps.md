@@ -17,3 +17,11 @@
 7. Create a new Django app
 
 #### Commit - Setup Project
+
+### Further Steps
+1. Install python-dotenv
+2. Setup environment variables `SECRET_KEY` and `DEBUG` in `.env` file
+3. Update `settings.py` to use environment variables
+4. Change timezone to `Asia/Kolkata`
+
+#### Commit - Add initial Django app strucutre and environment variables
