@@ -25,3 +25,7 @@
 4. Change timezone to `Asia/Kolkata`
 
 #### Commit - Add initial Django app strucutre and environment variables
+
+#### Commit - Update settings.py to use environment variables
+
+#### Commit - Add custom and third-party apps to settings and create VectorStore model
