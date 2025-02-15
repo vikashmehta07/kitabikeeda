@@ -29,3 +29,9 @@
 #### Commit - Update settings.py to use environment variables
 
 #### Commit - Add custom and third-party apps to settings and create VectorStore model
+
+### App - keeda
+
+1. Create a new model `Assistants`
+2. Create helper functions to interact with the openai API
+3. 
